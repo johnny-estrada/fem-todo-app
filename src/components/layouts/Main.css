@@ -1,0 +1,7 @@
+.main {
+    /* display: flex; */
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    top: 246px;
+}
