@@ -1,0 +1,32 @@
+.item-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px 24px;
+    align-items: center;
+    border-bottom: #E3E4F1 solid 1px; 
+
+    width: 33.75rem;
+    height: 4rem;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    border-radius: 5px;
+}
+
+.text {
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  color: #393A4B;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Create a custom checkbox */
+.checkbox {
+  display: flex;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 50%;
+  }
