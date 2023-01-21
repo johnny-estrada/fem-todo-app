@@ -1,9 +1,15 @@
-import './App.css';
+import Header from "./components/layouts/Header";
+import Main from "./components/layouts/Main";
+import Container from "./components/forms/Container";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      test
+    <div className="container">
+      <div className="background"></div>
+      <Header />
+      <Container />
+      <Main />
     </div>
   );
 }
