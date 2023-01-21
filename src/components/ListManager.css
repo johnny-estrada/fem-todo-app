@@ -1,0 +1,29 @@
+.list-container {
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-radius: 5px;
+
+    width: 540px;
+}
+
+.filters-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-filter {
+    font-size: 14px;
+    line-height: 14px;
+
+    color: #9495A5;
+}
+
+.filters {
+    font-weight: 700;
+    padding: 0 10px;
+}
